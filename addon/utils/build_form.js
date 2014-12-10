@@ -1,7 +1,7 @@
 import Em from 'ember';
 
 export default function buildForm(params) {
-  return Em.keys(params).reduce(function(formData, key) {
+  return params && Em.keys(params).reduce(function(formData, key) {
     var value = params[key];
 
     if (value instanceof File) {
