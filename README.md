@@ -4,7 +4,10 @@ A small wrapper around ic-ajax for making API requests from your Ember app.
 
 ## Installation
 
-* `npm install --save ember-apijax`
+```bash
+# From within your ember-cli project
+ember install:addon ember-apijax
+```
 
 ## Usage
 
